@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "621d870d-0ac7-c041-9cbd-6969b71af3a9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "621d870d-0ac7-c041-9cbd-6969b71af3a9" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "621d870d-0ac7-c041-9cbd-6969b71af3a9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "87F69B48-0E5B-4305-9E46-A6707B40E926",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "621d870d-0ac7-c041-9cbd-6969b71af3a9" : "BSBDJ\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "01-练习BS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "01-百思UITextfield\/01-练习BS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/172.16.18.129\/svn\/BSBDJ",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "621d870d-0ac7-c041-9cbd-6969b71af3a9"
+    }
+  ]
+}

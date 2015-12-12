@@ -1,0 +1,1064 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5500837C1C05EA2800C58DFF /* ZoroTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5500837B1C05EA2800C58DFF /* ZoroTopicPictureView.m */; };
+		5500837F1C05EA4000C58DFF /* ZoroTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5500837E1C05EA4000C58DFF /* ZoroTopicVideoView.m */; };
+		550083821C05EA5C00C58DFF /* ZoroTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 550083811C05EA5C00C58DFF /* ZoroTopicVoiceView.m */; };
+		550083841C05EAC000C58DFF /* ZoroTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550083831C05EAC000C58DFF /* ZoroTopicPictureView.xib */; };
+		550083861C05EAD100C58DFF /* ZoroTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550083851C05EAD100C58DFF /* ZoroTopicVideoView.xib */; };
+		5500838A1C05EB0300C58DFF /* ZoroTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550083891C05EB0300C58DFF /* ZoroTopicVoiceView.xib */; };
+		550A0E9C1BEB696300EAE5A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550A0E9B1BEB696300EAE5A8 /* Assets.xcassets */; };
+		550A0EAA1BEB696300EAE5A8 /* _1___BSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 550A0EA91BEB696300EAE5A8 /* _1___BSTests.m */; };
+		550A0EB51BEB696300EAE5A8 /* _1___BSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 550A0EB41BEB696300EAE5A8 /* _1___BSUITests.m */; };
+		55209E0E1C0C4838001F6569 /* ZoroSeeBigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55209E0C1C0C4838001F6569 /* ZoroSeeBigViewController.m */; };
+		55209E0F1C0C4838001F6569 /* ZoroSeeBigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55209E0D1C0C4838001F6569 /* ZoroSeeBigViewController.xib */; };
+		55273D351BEE3137002408BD /* ZoroEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55273D121BEE3137002408BD /* ZoroEssenceViewController.m */; };
+		55273D361BEE3137002408BD /* ZoroFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55273D181BEE3137002408BD /* ZoroFollowViewController.m */; };
+		55273D371BEE3137002408BD /* ZoroMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55273D1E1BEE3137002408BD /* ZoroMeViewController.m */; };
+		55273D381BEE3137002408BD /* ZoroNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55273D241BEE3137002408BD /* ZoroNewViewController.m */; };
+		55273D391BEE3137002408BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55273D291BEE3137002408BD /* AppDelegate.m */; };
+		55273D3A1BEE3137002408BD /* UIView+ZoroExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 55273D2C1BEE3137002408BD /* UIView+ZoroExtension.m */; };
+		55273D3B1BEE3137002408BD /* ZoroTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 55273D2F1BEE3137002408BD /* ZoroTabBar.m */; };
+		55273D3C1BEE3137002408BD /* ZoroTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55273D311BEE3137002408BD /* ZoroTabBarViewController.m */; };
+		55273D3D1BEE3137002408BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55273D321BEE3137002408BD /* main.m */; };
+		55273D461BEE45F4002408BD /* ZoroSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55273D451BEE45F4002408BD /* ZoroSettingViewController.m */; };
+		55273D491BEE46A0002408BD /* ZoroTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55273D481BEE46A0002408BD /* ZoroTestViewController.m */; };
+		55273D4C1BEE4A50002408BD /* UIBarButtonItem+ZoroExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 55273D4B1BEE4A50002408BD /* UIBarButtonItem+ZoroExtension.m */; };
+		55273D4F1BEE5401002408BD /* ZoroRecommendFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55273D4E1BEE5401002408BD /* ZoroRecommendFollowViewController.m */; };
+		55273D521BEE57DA002408BD /* ZoroNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55273D511BEE57DA002408BD /* ZoroNavigationController.m */; };
+		5536E0DC1C0B3F5F001E562C /* ZoroHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5536E0DB1C0B3F5F001E562C /* ZoroHTTPSessionManager.m */; };
+		5536E0DF1C0B3F99001E562C /* ZoroTempView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5536E0DE1C0B3F99001E562C /* ZoroTempView.m */; };
+		5536E0E21C0B3FE3001E562C /* ZoroExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5536E0E11C0B3FE3001E562C /* ZoroExtensionConfig.m */; };
+		5536E0E51C0C3107001E562C /* ZoroTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5536E0E41C0C3107001E562C /* ZoroTopicViewController.m */; };
+		554CBED61BF3644200F486A3 /* ZoroLoginRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 554CBED51BF3644200F486A3 /* ZoroLoginRegisterTextField.m */; };
+		5553203D1BFDE519006DC59B /* NSString+ZoroExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5553203C1BFDE519006DC59B /* NSString+ZoroExtension.m */; };
+		555320401BFE0D4E006DC59B /* ZoroClearCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5553203F1BFE0D4E006DC59B /* ZoroClearCacheCell.m */; };
+		5583917B1BFC54C200E6781C /* ZoroMeSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5583917A1BFC54C200E6781C /* ZoroMeSquareButton.m */; };
+		5583917F1BFC7F8E00E6781C /* ZoroWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5583917D1BFC7F8E00E6781C /* ZoroWebViewController.m */; };
+		558391801BFC7F8E00E6781C /* ZoroWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5583917E1BFC7F8E00E6781C /* ZoroWebViewController.xib */; };
+		559F78491C00913B00B07B95 /* ZoroTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 559F78481C00913B00B07B95 /* ZoroTopic.m */; };
+		559F784C1C00AA1700B07B95 /* ZoroRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 559F784B1C00AA1700B07B95 /* ZoroRefreshHeader.m */; };
+		559F784F1C00AAA800B07B95 /* ZoroRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 559F784E1C00AAA800B07B95 /* ZoroRefreshFooter.m */; };
+		55AB01991C01DA6000F93A58 /* ZoroTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AB01981C01DA6000F93A58 /* ZoroTopicCell.m */; };
+		55AB01A31C01E4B500F93A58 /* ZoroTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55AB01A21C01E4B500F93A58 /* ZoroTopicCell.xib */; };
+		55B38C851BFF479C00958FAC /* ZoroOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B38C831BFF479C00958FAC /* ZoroOtherCell.m */; };
+		55B38C861BFF479C00958FAC /* ZoroOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55B38C841BFF479C00958FAC /* ZoroOtherCell.xib */; };
+		55B38C891BFF5A8B00958FAC /* ZoroTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B38C881BFF5A8B00958FAC /* ZoroTitleButton.m */; };
+		55C380F31C04309A004BDBC7 /* NSCalendar+ZoroExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C380F21C04309A004BDBC7 /* NSCalendar+ZoroExtension.m */; };
+		55C380F61C044782004BDBC7 /* NSDate+ZoroExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C380F51C044782004BDBC7 /* NSDate+ZoroExtension.m */; };
+		55C380FA1C048949004BDBC7 /* ZoroUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C380F91C048949004BDBC7 /* ZoroUser.m */; };
+		55C380FD1C04895D004BDBC7 /* ZoroComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C380FC1C04895D004BDBC7 /* ZoroComment.m */; };
+		55C81D771BEF875A00DC457C /* ZoroFollowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C81D761BEF875A00DC457C /* ZoroFollowViewController.xib */; };
+		55C81D7B1BEF93A300DC457C /* ZoroLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C81D791BEF93A300DC457C /* ZoroLoginRegisterViewController.m */; };
+		55C81D7C1BEF93A300DC457C /* ZoroLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C81D7A1BEF93A300DC457C /* ZoroLoginRegisterViewController.xib */; };
+		55E179321C001E3300960EE7 /* ZoroAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E179311C001E3300960EE7 /* ZoroAllViewController.m */; };
+		55E179351C001E5400960EE7 /* ZoroVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E179341C001E5400960EE7 /* ZoroVideoViewController.m */; };
+		55E179381C001E6300960EE7 /* ZoroVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E179371C001E6300960EE7 /* ZoroVoiceViewController.m */; };
+		55E1793B1C001E8300960EE7 /* ZoroPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E1793A1C001E8300960EE7 /* ZoroPictureViewController.m */; };
+		55E1793E1C001FE900960EE7 /* ZoroWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E1793D1C001FE900960EE7 /* ZoroWordViewController.m */; };
+		55F6A9961BFA113C00F32295 /* UITextField+ZoroExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F6A9951BFA113B00F32295 /* UITextField+ZoroExtension.m */; };
+		55F6A9991BFA121600F32295 /* ZoroQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F6A9981BFA121600F32295 /* ZoroQuickLoginButton.m */; };
+		55F6A99C1BFA211400F32295 /* ZoroMeSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F6A99B1BFA211400F32295 /* ZoroMeSquare.m */; };
+		55F6A9A21BFA261B00F32295 /* ZoroConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F6A9A11BFA261B00F32295 /* ZoroConst.m */; };
+		55F6A9A51BFABFC900F32295 /* ZoroMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F6A9A41BFABFC900F32295 /* ZoroMeCell.m */; };
+		55F6A9A81BFAC00200F32295 /* ZoroMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F6A9A71BFAC00200F32295 /* ZoroMeFooterView.m */; };
+		A34A9EE5693030A8ACB52FA7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 194A096235162E4FD5093F43 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		550A0EA61BEB696300EAE5A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 550A0E841BEB696300EAE5A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550A0E8B1BEB696300EAE5A8;
+			remoteInfo = "01-练习BS";
+		};
+		550A0EB11BEB696300EAE5A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 550A0E841BEB696300EAE5A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550A0E8B1BEB696300EAE5A8;
+			remoteInfo = "01-练习BS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		194A096235162E4FD5093F43 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		341EBFE39922A0636A182B9D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3ABDEDDDEF729B37F35AA076 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5500837A1C05EA2800C58DFF /* ZoroTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroTopicPictureView.h; sourceTree = "<group>"; };
+		5500837B1C05EA2800C58DFF /* ZoroTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroTopicPictureView.m; sourceTree = "<group>"; };
+		5500837D1C05EA4000C58DFF /* ZoroTopicVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroTopicVideoView.h; sourceTree = "<group>"; };
+		5500837E1C05EA4000C58DFF /* ZoroTopicVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroTopicVideoView.m; sourceTree = "<group>"; };
+		550083801C05EA5C00C58DFF /* ZoroTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroTopicVoiceView.h; sourceTree = "<group>"; };
+		550083811C05EA5C00C58DFF /* ZoroTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroTopicVoiceView.m; sourceTree = "<group>"; };
+		550083831C05EAC000C58DFF /* ZoroTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoroTopicPictureView.xib; sourceTree = "<group>"; };
+		550083851C05EAD100C58DFF /* ZoroTopicVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoroTopicVideoView.xib; sourceTree = "<group>"; };
+		550083891C05EB0300C58DFF /* ZoroTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoroTopicVoiceView.xib; sourceTree = "<group>"; };
+		550A0E8C1BEB696300EAE5A8 /* 01-练习BS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-练习BS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		550A0E9B1BEB696300EAE5A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		550A0EA01BEB696300EAE5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550A0EA51BEB696300EAE5A8 /* 01-练习BSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-练习BSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		550A0EA91BEB696300EAE5A8 /* _1___BSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1___BSTests.m"; sourceTree = "<group>"; };
+		550A0EAB1BEB696300EAE5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550A0EB01BEB696300EAE5A8 /* 01-练习BSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-练习BSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		550A0EB41BEB696300EAE5A8 /* _1___BSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1___BSUITests.m"; sourceTree = "<group>"; };
+		550A0EB61BEB696300EAE5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55209E0B1C0C4838001F6569 /* ZoroSeeBigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroSeeBigViewController.h; sourceTree = "<group>"; };
+		55209E0C1C0C4838001F6569 /* ZoroSeeBigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroSeeBigViewController.m; sourceTree = "<group>"; };
+		55209E0D1C0C4838001F6569 /* ZoroSeeBigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoroSeeBigViewController.xib; sourceTree = "<group>"; };
+		55273D111BEE3137002408BD /* ZoroEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroEssenceViewController.h; sourceTree = "<group>"; };
+		55273D121BEE3137002408BD /* ZoroEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroEssenceViewController.m; sourceTree = "<group>"; };
+		55273D171BEE3137002408BD /* ZoroFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroFollowViewController.h; sourceTree = "<group>"; };
+		55273D181BEE3137002408BD /* ZoroFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroFollowViewController.m; sourceTree = "<group>"; };
+		55273D1D1BEE3137002408BD /* ZoroMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroMeViewController.h; sourceTree = "<group>"; };
+		55273D1E1BEE3137002408BD /* ZoroMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroMeViewController.m; sourceTree = "<group>"; };
+		55273D231BEE3137002408BD /* ZoroNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroNewViewController.h; sourceTree = "<group>"; };
+		55273D241BEE3137002408BD /* ZoroNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroNewViewController.m; sourceTree = "<group>"; };
+		55273D281BEE3137002408BD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55273D291BEE3137002408BD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55273D2B1BEE3137002408BD /* UIView+ZoroExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZoroExtension.h"; sourceTree = "<group>"; };
+		55273D2C1BEE3137002408BD /* UIView+ZoroExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZoroExtension.m"; sourceTree = "<group>"; };
+		55273D2E1BEE3137002408BD /* ZoroTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZoroTabBar.h; path = ../Controller/ZoroTabBar.h; sourceTree = "<group>"; };
+		55273D2F1BEE3137002408BD /* ZoroTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZoroTabBar.m; path = ../Controller/ZoroTabBar.m; sourceTree = "<group>"; };
+		55273D301BEE3137002408BD /* ZoroTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroTabBarViewController.h; sourceTree = "<group>"; };
+		55273D311BEE3137002408BD /* ZoroTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroTabBarViewController.m; sourceTree = "<group>"; };
+		55273D321BEE3137002408BD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55273D331BEE3137002408BD /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		55273D441BEE45F4002408BD /* ZoroSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroSettingViewController.h; sourceTree = "<group>"; };
+		55273D451BEE45F4002408BD /* ZoroSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroSettingViewController.m; sourceTree = "<group>"; };
+		55273D471BEE46A0002408BD /* ZoroTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroTestViewController.h; sourceTree = "<group>"; };
+		55273D481BEE46A0002408BD /* ZoroTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroTestViewController.m; sourceTree = "<group>"; };
+		55273D4A1BEE4A50002408BD /* UIBarButtonItem+ZoroExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZoroExtension.h"; sourceTree = "<group>"; };
+		55273D4B1BEE4A50002408BD /* UIBarButtonItem+ZoroExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZoroExtension.m"; sourceTree = "<group>"; };
+		55273D4D1BEE5401002408BD /* ZoroRecommendFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroRecommendFollowViewController.h; sourceTree = "<group>"; };
+		55273D4E1BEE5401002408BD /* ZoroRecommendFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroRecommendFollowViewController.m; sourceTree = "<group>"; };
+		55273D501BEE57DA002408BD /* ZoroNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroNavigationController.h; sourceTree = "<group>"; };
+		55273D511BEE57DA002408BD /* ZoroNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroNavigationController.m; sourceTree = "<group>"; };
+		5536E0DA1C0B3F5F001E562C /* ZoroHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroHTTPSessionManager.h; sourceTree = "<group>"; };
+		5536E0DB1C0B3F5F001E562C /* ZoroHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroHTTPSessionManager.m; sourceTree = "<group>"; };
+		5536E0DD1C0B3F99001E562C /* ZoroTempView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroTempView.h; sourceTree = "<group>"; };
+		5536E0DE1C0B3F99001E562C /* ZoroTempView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroTempView.m; sourceTree = "<group>"; };
+		5536E0E01C0B3FE3001E562C /* ZoroExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroExtensionConfig.h; sourceTree = "<group>"; };
+		5536E0E11C0B3FE3001E562C /* ZoroExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroExtensionConfig.m; sourceTree = "<group>"; };
+		5536E0E31C0C3107001E562C /* ZoroTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroTopicViewController.h; sourceTree = "<group>"; };
+		5536E0E41C0C3107001E562C /* ZoroTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroTopicViewController.m; sourceTree = "<group>"; };
+		554CBED41BF3644200F486A3 /* ZoroLoginRegisterTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroLoginRegisterTextField.h; sourceTree = "<group>"; };
+		554CBED51BF3644200F486A3 /* ZoroLoginRegisterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroLoginRegisterTextField.m; sourceTree = "<group>"; };
+		5553203B1BFDE519006DC59B /* NSString+ZoroExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZoroExtension.h"; sourceTree = "<group>"; };
+		5553203C1BFDE519006DC59B /* NSString+ZoroExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZoroExtension.m"; sourceTree = "<group>"; };
+		5553203E1BFE0D4E006DC59B /* ZoroClearCacheCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroClearCacheCell.h; sourceTree = "<group>"; };
+		5553203F1BFE0D4E006DC59B /* ZoroClearCacheCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroClearCacheCell.m; sourceTree = "<group>"; };
+		558391791BFC54C200E6781C /* ZoroMeSquareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroMeSquareButton.h; sourceTree = "<group>"; };
+		5583917A1BFC54C200E6781C /* ZoroMeSquareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroMeSquareButton.m; sourceTree = "<group>"; };
+		5583917C1BFC7F8E00E6781C /* ZoroWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroWebViewController.h; sourceTree = "<group>"; };
+		5583917D1BFC7F8E00E6781C /* ZoroWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroWebViewController.m; sourceTree = "<group>"; };
+		5583917E1BFC7F8E00E6781C /* ZoroWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoroWebViewController.xib; sourceTree = "<group>"; };
+		559F78471C00913B00B07B95 /* ZoroTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroTopic.h; sourceTree = "<group>"; };
+		559F78481C00913B00B07B95 /* ZoroTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroTopic.m; sourceTree = "<group>"; };
+		559F784A1C00AA1700B07B95 /* ZoroRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroRefreshHeader.h; sourceTree = "<group>"; };
+		559F784B1C00AA1700B07B95 /* ZoroRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroRefreshHeader.m; sourceTree = "<group>"; };
+		559F784D1C00AAA800B07B95 /* ZoroRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroRefreshFooter.h; sourceTree = "<group>"; };
+		559F784E1C00AAA800B07B95 /* ZoroRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroRefreshFooter.m; sourceTree = "<group>"; };
+		55AB01971C01DA6000F93A58 /* ZoroTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroTopicCell.h; sourceTree = "<group>"; };
+		55AB01981C01DA6000F93A58 /* ZoroTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroTopicCell.m; sourceTree = "<group>"; };
+		55AB01A21C01E4B500F93A58 /* ZoroTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoroTopicCell.xib; sourceTree = "<group>"; };
+		55B38C821BFF479C00958FAC /* ZoroOtherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroOtherCell.h; sourceTree = "<group>"; };
+		55B38C831BFF479C00958FAC /* ZoroOtherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroOtherCell.m; sourceTree = "<group>"; };
+		55B38C841BFF479C00958FAC /* ZoroOtherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoroOtherCell.xib; sourceTree = "<group>"; };
+		55B38C871BFF5A8B00958FAC /* ZoroTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroTitleButton.h; sourceTree = "<group>"; };
+		55B38C881BFF5A8B00958FAC /* ZoroTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroTitleButton.m; sourceTree = "<group>"; };
+		55C380F11C04309A004BDBC7 /* NSCalendar+ZoroExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+ZoroExtension.h"; sourceTree = "<group>"; };
+		55C380F21C04309A004BDBC7 /* NSCalendar+ZoroExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+ZoroExtension.m"; sourceTree = "<group>"; };
+		55C380F51C044782004BDBC7 /* NSDate+ZoroExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZoroExtension.m"; sourceTree = "<group>"; };
+		55C380F71C044834004BDBC7 /* NSDate+ZoroExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZoroExtension.h"; sourceTree = "<group>"; };
+		55C380F81C048949004BDBC7 /* ZoroUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroUser.h; sourceTree = "<group>"; };
+		55C380F91C048949004BDBC7 /* ZoroUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroUser.m; sourceTree = "<group>"; };
+		55C380FB1C04895D004BDBC7 /* ZoroComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroComment.h; sourceTree = "<group>"; };
+		55C380FC1C04895D004BDBC7 /* ZoroComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroComment.m; sourceTree = "<group>"; };
+		55C81D761BEF875A00DC457C /* ZoroFollowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoroFollowViewController.xib; sourceTree = "<group>"; };
+		55C81D781BEF93A300DC457C /* ZoroLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroLoginRegisterViewController.h; sourceTree = "<group>"; };
+		55C81D791BEF93A300DC457C /* ZoroLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroLoginRegisterViewController.m; sourceTree = "<group>"; };
+		55C81D7A1BEF93A300DC457C /* ZoroLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoroLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		55E179301C001E3300960EE7 /* ZoroAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroAllViewController.h; sourceTree = "<group>"; };
+		55E179311C001E3300960EE7 /* ZoroAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroAllViewController.m; sourceTree = "<group>"; };
+		55E179331C001E5400960EE7 /* ZoroVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroVideoViewController.h; sourceTree = "<group>"; };
+		55E179341C001E5400960EE7 /* ZoroVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroVideoViewController.m; sourceTree = "<group>"; };
+		55E179361C001E6300960EE7 /* ZoroVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroVoiceViewController.h; sourceTree = "<group>"; };
+		55E179371C001E6300960EE7 /* ZoroVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroVoiceViewController.m; sourceTree = "<group>"; };
+		55E179391C001E8300960EE7 /* ZoroPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroPictureViewController.h; sourceTree = "<group>"; };
+		55E1793A1C001E8300960EE7 /* ZoroPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroPictureViewController.m; sourceTree = "<group>"; };
+		55E1793C1C001FE900960EE7 /* ZoroWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroWordViewController.h; sourceTree = "<group>"; };
+		55E1793D1C001FE900960EE7 /* ZoroWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroWordViewController.m; sourceTree = "<group>"; };
+		55F6A9941BFA113B00F32295 /* UITextField+ZoroExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ZoroExtension.h"; sourceTree = "<group>"; };
+		55F6A9951BFA113B00F32295 /* UITextField+ZoroExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ZoroExtension.m"; sourceTree = "<group>"; };
+		55F6A9971BFA121600F32295 /* ZoroQuickLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroQuickLoginButton.h; sourceTree = "<group>"; };
+		55F6A9981BFA121600F32295 /* ZoroQuickLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroQuickLoginButton.m; sourceTree = "<group>"; };
+		55F6A99A1BFA211400F32295 /* ZoroMeSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroMeSquare.h; sourceTree = "<group>"; };
+		55F6A99B1BFA211400F32295 /* ZoroMeSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroMeSquare.m; sourceTree = "<group>"; };
+		55F6A9A01BFA261B00F32295 /* ZoroConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZoroConst.h; path = View/ZoroConst.h; sourceTree = "<group>"; };
+		55F6A9A11BFA261B00F32295 /* ZoroConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZoroConst.m; path = View/ZoroConst.m; sourceTree = "<group>"; };
+		55F6A9A31BFABFC900F32295 /* ZoroMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroMeCell.h; sourceTree = "<group>"; };
+		55F6A9A41BFABFC900F32295 /* ZoroMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroMeCell.m; sourceTree = "<group>"; };
+		55F6A9A61BFAC00200F32295 /* ZoroMeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoroMeFooterView.h; sourceTree = "<group>"; };
+		55F6A9A71BFAC00200F32295 /* ZoroMeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoroMeFooterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		550A0E891BEB696300EAE5A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34A9EE5693030A8ACB52FA7 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550A0EA21BEB696300EAE5A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550A0EAD1BEB696300EAE5A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		550A0E831BEB696300EAE5A8 = {
+			isa = PBXGroup;
+			children = (
+				550A0E8E1BEB696300EAE5A8 /* 01-练习BS */,
+				550A0EA81BEB696300EAE5A8 /* 01-练习BSTests */,
+				550A0EB31BEB696300EAE5A8 /* 01-练习BSUITests */,
+				550A0E8D1BEB696300EAE5A8 /* Products */,
+				84CAA3D03977764C1FA25250 /* Pods */,
+				8B50BFE67BF8703F83EF4F50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		550A0E8D1BEB696300EAE5A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				550A0E8C1BEB696300EAE5A8 /* 01-练习BS.app */,
+				550A0EA51BEB696300EAE5A8 /* 01-练习BSTests.xctest */,
+				550A0EB01BEB696300EAE5A8 /* 01-练习BSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		550A0E8E1BEB696300EAE5A8 /* 01-练习BS */ = {
+			isa = PBXGroup;
+			children = (
+				55273D0E1BEE3137002408BD /* Classes */,
+				550A0E8F1BEB696300EAE5A8 /* Supporting Files */,
+			);
+			path = "01-练习BS";
+			sourceTree = "<group>";
+		};
+		550A0E8F1BEB696300EAE5A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				550A0E9B1BEB696300EAE5A8 /* Assets.xcassets */,
+				550A0EA01BEB696300EAE5A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		550A0EA81BEB696300EAE5A8 /* 01-练习BSTests */ = {
+			isa = PBXGroup;
+			children = (
+				550A0EA91BEB696300EAE5A8 /* _1___BSTests.m */,
+				550A0EAB1BEB696300EAE5A8 /* Info.plist */,
+			);
+			path = "01-练习BSTests";
+			sourceTree = "<group>";
+		};
+		550A0EB31BEB696300EAE5A8 /* 01-练习BSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				550A0EB41BEB696300EAE5A8 /* _1___BSUITests.m */,
+				550A0EB61BEB696300EAE5A8 /* Info.plist */,
+			);
+			path = "01-练习BSUITests";
+			sourceTree = "<group>";
+		};
+		55273D0E1BEE3137002408BD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				55273D0F1BEE3137002408BD /* Essence-精华 */,
+				55273D151BEE3137002408BD /* Follow-关注 */,
+				55273D211BEE3137002408BD /* New- 新帖 */,
+				55273D1B1BEE3137002408BD /* Me- 我 */,
+				55273D271BEE3137002408BD /* Other-其他 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		55273D0F1BEE3137002408BD /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				55273D101BEE3137002408BD /* Controller */,
+				55273D131BEE3137002408BD /* Model */,
+				55273D141BEE3137002408BD /* View */,
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		55273D101BEE3137002408BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55273D111BEE3137002408BD /* ZoroEssenceViewController.h */,
+				55273D121BEE3137002408BD /* ZoroEssenceViewController.m */,
+				55E179301C001E3300960EE7 /* ZoroAllViewController.h */,
+				55E179311C001E3300960EE7 /* ZoroAllViewController.m */,
+				55E179331C001E5400960EE7 /* ZoroVideoViewController.h */,
+				55E179341C001E5400960EE7 /* ZoroVideoViewController.m */,
+				55E179361C001E6300960EE7 /* ZoroVoiceViewController.h */,
+				55E179371C001E6300960EE7 /* ZoroVoiceViewController.m */,
+				55E179391C001E8300960EE7 /* ZoroPictureViewController.h */,
+				55E1793A1C001E8300960EE7 /* ZoroPictureViewController.m */,
+				55E1793C1C001FE900960EE7 /* ZoroWordViewController.h */,
+				55E1793D1C001FE900960EE7 /* ZoroWordViewController.m */,
+				5536E0E31C0C3107001E562C /* ZoroTopicViewController.h */,
+				5536E0E41C0C3107001E562C /* ZoroTopicViewController.m */,
+				55209E0B1C0C4838001F6569 /* ZoroSeeBigViewController.h */,
+				55209E0C1C0C4838001F6569 /* ZoroSeeBigViewController.m */,
+				55209E0D1C0C4838001F6569 /* ZoroSeeBigViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55273D131BEE3137002408BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				559F78471C00913B00B07B95 /* ZoroTopic.h */,
+				559F78481C00913B00B07B95 /* ZoroTopic.m */,
+				55C380F81C048949004BDBC7 /* ZoroUser.h */,
+				55C380F91C048949004BDBC7 /* ZoroUser.m */,
+				55C380FB1C04895D004BDBC7 /* ZoroComment.h */,
+				55C380FC1C04895D004BDBC7 /* ZoroComment.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55273D141BEE3137002408BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55B38C871BFF5A8B00958FAC /* ZoroTitleButton.h */,
+				55B38C881BFF5A8B00958FAC /* ZoroTitleButton.m */,
+				55AB01971C01DA6000F93A58 /* ZoroTopicCell.h */,
+				55AB01981C01DA6000F93A58 /* ZoroTopicCell.m */,
+				55AB01A21C01E4B500F93A58 /* ZoroTopicCell.xib */,
+				5500837A1C05EA2800C58DFF /* ZoroTopicPictureView.h */,
+				5500837B1C05EA2800C58DFF /* ZoroTopicPictureView.m */,
+				550083831C05EAC000C58DFF /* ZoroTopicPictureView.xib */,
+				5500837D1C05EA4000C58DFF /* ZoroTopicVideoView.h */,
+				5500837E1C05EA4000C58DFF /* ZoroTopicVideoView.m */,
+				550083851C05EAD100C58DFF /* ZoroTopicVideoView.xib */,
+				550083801C05EA5C00C58DFF /* ZoroTopicVoiceView.h */,
+				550083811C05EA5C00C58DFF /* ZoroTopicVoiceView.m */,
+				550083891C05EB0300C58DFF /* ZoroTopicVoiceView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55273D151BEE3137002408BD /* Follow-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				55273D161BEE3137002408BD /* Controller */,
+				55273D191BEE3137002408BD /* Model */,
+				55273D1A1BEE3137002408BD /* View */,
+			);
+			path = "Follow-关注";
+			sourceTree = "<group>";
+		};
+		55273D161BEE3137002408BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55273D171BEE3137002408BD /* ZoroFollowViewController.h */,
+				55273D181BEE3137002408BD /* ZoroFollowViewController.m */,
+				55C81D761BEF875A00DC457C /* ZoroFollowViewController.xib */,
+				55273D4D1BEE5401002408BD /* ZoroRecommendFollowViewController.h */,
+				55273D4E1BEE5401002408BD /* ZoroRecommendFollowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55273D191BEE3137002408BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55273D1A1BEE3137002408BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55273D1B1BEE3137002408BD /* Me- 我 */ = {
+			isa = PBXGroup;
+			children = (
+				55273D1C1BEE3137002408BD /* Controller */,
+				55273D1F1BEE3137002408BD /* Model */,
+				55273D201BEE3137002408BD /* View */,
+			);
+			path = "Me- 我";
+			sourceTree = "<group>";
+		};
+		55273D1C1BEE3137002408BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55273D1D1BEE3137002408BD /* ZoroMeViewController.h */,
+				55273D1E1BEE3137002408BD /* ZoroMeViewController.m */,
+				55273D441BEE45F4002408BD /* ZoroSettingViewController.h */,
+				55273D451BEE45F4002408BD /* ZoroSettingViewController.m */,
+				55273D471BEE46A0002408BD /* ZoroTestViewController.h */,
+				55273D481BEE46A0002408BD /* ZoroTestViewController.m */,
+				5583917C1BFC7F8E00E6781C /* ZoroWebViewController.h */,
+				5583917D1BFC7F8E00E6781C /* ZoroWebViewController.m */,
+				5583917E1BFC7F8E00E6781C /* ZoroWebViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55273D1F1BEE3137002408BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55F6A99A1BFA211400F32295 /* ZoroMeSquare.h */,
+				55F6A99B1BFA211400F32295 /* ZoroMeSquare.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55273D201BEE3137002408BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55F6A9A31BFABFC900F32295 /* ZoroMeCell.h */,
+				55F6A9A41BFABFC900F32295 /* ZoroMeCell.m */,
+				55F6A9A61BFAC00200F32295 /* ZoroMeFooterView.h */,
+				55F6A9A71BFAC00200F32295 /* ZoroMeFooterView.m */,
+				558391791BFC54C200E6781C /* ZoroMeSquareButton.h */,
+				5583917A1BFC54C200E6781C /* ZoroMeSquareButton.m */,
+				5553203E1BFE0D4E006DC59B /* ZoroClearCacheCell.h */,
+				5553203F1BFE0D4E006DC59B /* ZoroClearCacheCell.m */,
+				55B38C821BFF479C00958FAC /* ZoroOtherCell.h */,
+				55B38C831BFF479C00958FAC /* ZoroOtherCell.m */,
+				55B38C841BFF479C00958FAC /* ZoroOtherCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55273D211BEE3137002408BD /* New- 新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				55273D221BEE3137002408BD /* Controller */,
+				55273D251BEE3137002408BD /* Model */,
+				55273D261BEE3137002408BD /* View */,
+			);
+			path = "New- 新帖";
+			sourceTree = "<group>";
+		};
+		55273D221BEE3137002408BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55273D231BEE3137002408BD /* ZoroNewViewController.h */,
+				55273D241BEE3137002408BD /* ZoroNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55273D251BEE3137002408BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55273D261BEE3137002408BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55273D271BEE3137002408BD /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				55273D2A1BEE3137002408BD /* Category */,
+				55273D2D1BEE3137002408BD /* Controller */,
+				55273D341BEE3137002408BD /* View */,
+				55273D281BEE3137002408BD /* AppDelegate.h */,
+				55273D291BEE3137002408BD /* AppDelegate.m */,
+				5536E0DA1C0B3F5F001E562C /* ZoroHTTPSessionManager.h */,
+				5536E0DB1C0B3F5F001E562C /* ZoroHTTPSessionManager.m */,
+				5536E0DD1C0B3F99001E562C /* ZoroTempView.h */,
+				5536E0DE1C0B3F99001E562C /* ZoroTempView.m */,
+				55273D321BEE3137002408BD /* main.m */,
+				55273D331BEE3137002408BD /* PrefixHeader.pch */,
+				55F6A9A01BFA261B00F32295 /* ZoroConst.h */,
+				55F6A9A11BFA261B00F32295 /* ZoroConst.m */,
+				5536E0E01C0B3FE3001E562C /* ZoroExtensionConfig.h */,
+				5536E0E11C0B3FE3001E562C /* ZoroExtensionConfig.m */,
+			);
+			path = "Other-其他";
+			sourceTree = "<group>";
+		};
+		55273D2A1BEE3137002408BD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				55273D2B1BEE3137002408BD /* UIView+ZoroExtension.h */,
+				55273D2C1BEE3137002408BD /* UIView+ZoroExtension.m */,
+				55273D4A1BEE4A50002408BD /* UIBarButtonItem+ZoroExtension.h */,
+				55273D4B1BEE4A50002408BD /* UIBarButtonItem+ZoroExtension.m */,
+				55F6A9941BFA113B00F32295 /* UITextField+ZoroExtension.h */,
+				55F6A9951BFA113B00F32295 /* UITextField+ZoroExtension.m */,
+				5553203B1BFDE519006DC59B /* NSString+ZoroExtension.h */,
+				5553203C1BFDE519006DC59B /* NSString+ZoroExtension.m */,
+				55C380F71C044834004BDBC7 /* NSDate+ZoroExtension.h */,
+				55C380F51C044782004BDBC7 /* NSDate+ZoroExtension.m */,
+				55C380F11C04309A004BDBC7 /* NSCalendar+ZoroExtension.h */,
+				55C380F21C04309A004BDBC7 /* NSCalendar+ZoroExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		55273D2D1BEE3137002408BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55273D301BEE3137002408BD /* ZoroTabBarViewController.h */,
+				55273D311BEE3137002408BD /* ZoroTabBarViewController.m */,
+				55273D501BEE57DA002408BD /* ZoroNavigationController.h */,
+				55273D511BEE57DA002408BD /* ZoroNavigationController.m */,
+				55C81D781BEF93A300DC457C /* ZoroLoginRegisterViewController.h */,
+				55C81D791BEF93A300DC457C /* ZoroLoginRegisterViewController.m */,
+				55C81D7A1BEF93A300DC457C /* ZoroLoginRegisterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55273D341BEE3137002408BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55273D2E1BEE3137002408BD /* ZoroTabBar.h */,
+				55273D2F1BEE3137002408BD /* ZoroTabBar.m */,
+				55F6A9971BFA121600F32295 /* ZoroQuickLoginButton.h */,
+				55F6A9981BFA121600F32295 /* ZoroQuickLoginButton.m */,
+				554CBED41BF3644200F486A3 /* ZoroLoginRegisterTextField.h */,
+				554CBED51BF3644200F486A3 /* ZoroLoginRegisterTextField.m */,
+				559F784A1C00AA1700B07B95 /* ZoroRefreshHeader.h */,
+				559F784B1C00AA1700B07B95 /* ZoroRefreshHeader.m */,
+				559F784D1C00AAA800B07B95 /* ZoroRefreshFooter.h */,
+				559F784E1C00AAA800B07B95 /* ZoroRefreshFooter.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84CAA3D03977764C1FA25250 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				341EBFE39922A0636A182B9D /* Pods.debug.xcconfig */,
+				3ABDEDDDEF729B37F35AA076 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B50BFE67BF8703F83EF4F50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				194A096235162E4FD5093F43 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		550A0E8B1BEB696300EAE5A8 /* 01-练习BS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550A0EB91BEB696300EAE5A8 /* Build configuration list for PBXNativeTarget "01-练习BS" */;
+			buildPhases = (
+				E638159CFAFEA05683AF7C1D /* Check Pods Manifest.lock */,
+				550A0E881BEB696300EAE5A8 /* Sources */,
+				550A0E891BEB696300EAE5A8 /* Frameworks */,
+				550A0E8A1BEB696300EAE5A8 /* Resources */,
+				8D48E4C31992206BD2C75BC6 /* Embed Pods Frameworks */,
+				6CFDCCF49F8FFEF0C8B47ED0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-练习BS";
+			productName = "01-练习BS";
+			productReference = 550A0E8C1BEB696300EAE5A8 /* 01-练习BS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		550A0EA41BEB696300EAE5A8 /* 01-练习BSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550A0EBC1BEB696300EAE5A8 /* Build configuration list for PBXNativeTarget "01-练习BSTests" */;
+			buildPhases = (
+				550A0EA11BEB696300EAE5A8 /* Sources */,
+				550A0EA21BEB696300EAE5A8 /* Frameworks */,
+				550A0EA31BEB696300EAE5A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550A0EA71BEB696300EAE5A8 /* PBXTargetDependency */,
+			);
+			name = "01-练习BSTests";
+			productName = "01-练习BSTests";
+			productReference = 550A0EA51BEB696300EAE5A8 /* 01-练习BSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		550A0EAF1BEB696300EAE5A8 /* 01-练习BSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550A0EBF1BEB696300EAE5A8 /* Build configuration list for PBXNativeTarget "01-练习BSUITests" */;
+			buildPhases = (
+				550A0EAC1BEB696300EAE5A8 /* Sources */,
+				550A0EAD1BEB696300EAE5A8 /* Frameworks */,
+				550A0EAE1BEB696300EAE5A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550A0EB21BEB696300EAE5A8 /* PBXTargetDependency */,
+			);
+			name = "01-练习BSUITests";
+			productName = "01-练习BSUITests";
+			productReference = 550A0EB01BEB696300EAE5A8 /* 01-练习BSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		550A0E841BEB696300EAE5A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Zoro;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = grylls;
+				TargetAttributes = {
+					550A0E8B1BEB696300EAE5A8 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 93U6E5SGN9;
+					};
+					550A0EA41BEB696300EAE5A8 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 93U6E5SGN9;
+						TestTargetID = 550A0E8B1BEB696300EAE5A8;
+					};
+					550A0EAF1BEB696300EAE5A8 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 93U6E5SGN9;
+						TestTargetID = 550A0E8B1BEB696300EAE5A8;
+					};
+				};
+			};
+			buildConfigurationList = 550A0E871BEB696300EAE5A8 /* Build configuration list for PBXProject "01-练习BS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 550A0E831BEB696300EAE5A8;
+			productRefGroup = 550A0E8D1BEB696300EAE5A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				550A0E8B1BEB696300EAE5A8 /* 01-练习BS */,
+				550A0EA41BEB696300EAE5A8 /* 01-练习BSTests */,
+				550A0EAF1BEB696300EAE5A8 /* 01-练习BSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		550A0E8A1BEB696300EAE5A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550A0E9C1BEB696300EAE5A8 /* Assets.xcassets in Resources */,
+				55AB01A31C01E4B500F93A58 /* ZoroTopicCell.xib in Resources */,
+				550083861C05EAD100C58DFF /* ZoroTopicVideoView.xib in Resources */,
+				55B38C861BFF479C00958FAC /* ZoroOtherCell.xib in Resources */,
+				558391801BFC7F8E00E6781C /* ZoroWebViewController.xib in Resources */,
+				55C81D7C1BEF93A300DC457C /* ZoroLoginRegisterViewController.xib in Resources */,
+				55C81D771BEF875A00DC457C /* ZoroFollowViewController.xib in Resources */,
+				55209E0F1C0C4838001F6569 /* ZoroSeeBigViewController.xib in Resources */,
+				5500838A1C05EB0300C58DFF /* ZoroTopicVoiceView.xib in Resources */,
+				550083841C05EAC000C58DFF /* ZoroTopicPictureView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550A0EA31BEB696300EAE5A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550A0EAE1BEB696300EAE5A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CFDCCF49F8FFEF0C8B47ED0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D48E4C31992206BD2C75BC6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E638159CFAFEA05683AF7C1D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		550A0E881BEB696300EAE5A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B38C891BFF5A8B00958FAC /* ZoroTitleButton.m in Sources */,
+				55273D371BEE3137002408BD /* ZoroMeViewController.m in Sources */,
+				55E179351C001E5400960EE7 /* ZoroVideoViewController.m in Sources */,
+				5583917F1BFC7F8E00E6781C /* ZoroWebViewController.m in Sources */,
+				55273D491BEE46A0002408BD /* ZoroTestViewController.m in Sources */,
+				55C380FD1C04895D004BDBC7 /* ZoroComment.m in Sources */,
+				5583917B1BFC54C200E6781C /* ZoroMeSquareButton.m in Sources */,
+				55273D461BEE45F4002408BD /* ZoroSettingViewController.m in Sources */,
+				555320401BFE0D4E006DC59B /* ZoroClearCacheCell.m in Sources */,
+				55273D521BEE57DA002408BD /* ZoroNavigationController.m in Sources */,
+				55F6A9961BFA113C00F32295 /* UITextField+ZoroExtension.m in Sources */,
+				55C380F61C044782004BDBC7 /* NSDate+ZoroExtension.m in Sources */,
+				55F6A9A51BFABFC900F32295 /* ZoroMeCell.m in Sources */,
+				559F78491C00913B00B07B95 /* ZoroTopic.m in Sources */,
+				55273D381BEE3137002408BD /* ZoroNewViewController.m in Sources */,
+				55273D4F1BEE5401002408BD /* ZoroRecommendFollowViewController.m in Sources */,
+				55273D4C1BEE4A50002408BD /* UIBarButtonItem+ZoroExtension.m in Sources */,
+				554CBED61BF3644200F486A3 /* ZoroLoginRegisterTextField.m in Sources */,
+				55273D3C1BEE3137002408BD /* ZoroTabBarViewController.m in Sources */,
+				55209E0E1C0C4838001F6569 /* ZoroSeeBigViewController.m in Sources */,
+				55E179381C001E6300960EE7 /* ZoroVoiceViewController.m in Sources */,
+				55AB01991C01DA6000F93A58 /* ZoroTopicCell.m in Sources */,
+				55C81D7B1BEF93A300DC457C /* ZoroLoginRegisterViewController.m in Sources */,
+				5536E0DF1C0B3F99001E562C /* ZoroTempView.m in Sources */,
+				55F6A9A21BFA261B00F32295 /* ZoroConst.m in Sources */,
+				55C380FA1C048949004BDBC7 /* ZoroUser.m in Sources */,
+				55B38C851BFF479C00958FAC /* ZoroOtherCell.m in Sources */,
+				559F784C1C00AA1700B07B95 /* ZoroRefreshHeader.m in Sources */,
+				55F6A9A81BFAC00200F32295 /* ZoroMeFooterView.m in Sources */,
+				55273D351BEE3137002408BD /* ZoroEssenceViewController.m in Sources */,
+				55273D361BEE3137002408BD /* ZoroFollowViewController.m in Sources */,
+				5536E0DC1C0B3F5F001E562C /* ZoroHTTPSessionManager.m in Sources */,
+				55F6A9991BFA121600F32295 /* ZoroQuickLoginButton.m in Sources */,
+				55E179321C001E3300960EE7 /* ZoroAllViewController.m in Sources */,
+				5500837C1C05EA2800C58DFF /* ZoroTopicPictureView.m in Sources */,
+				5553203D1BFDE519006DC59B /* NSString+ZoroExtension.m in Sources */,
+				55273D3A1BEE3137002408BD /* UIView+ZoroExtension.m in Sources */,
+				55E1793B1C001E8300960EE7 /* ZoroPictureViewController.m in Sources */,
+				5500837F1C05EA4000C58DFF /* ZoroTopicVideoView.m in Sources */,
+				559F784F1C00AAA800B07B95 /* ZoroRefreshFooter.m in Sources */,
+				55E1793E1C001FE900960EE7 /* ZoroWordViewController.m in Sources */,
+				55273D3B1BEE3137002408BD /* ZoroTabBar.m in Sources */,
+				55C380F31C04309A004BDBC7 /* NSCalendar+ZoroExtension.m in Sources */,
+				55273D3D1BEE3137002408BD /* main.m in Sources */,
+				550083821C05EA5C00C58DFF /* ZoroTopicVoiceView.m in Sources */,
+				5536E0E51C0C3107001E562C /* ZoroTopicViewController.m in Sources */,
+				5536E0E21C0B3FE3001E562C /* ZoroExtensionConfig.m in Sources */,
+				55273D391BEE3137002408BD /* AppDelegate.m in Sources */,
+				55F6A99C1BFA211400F32295 /* ZoroMeSquare.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550A0EA11BEB696300EAE5A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550A0EAA1BEB696300EAE5A8 /* _1___BSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550A0EAC1BEB696300EAE5A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550A0EB51BEB696300EAE5A8 /* _1___BSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		550A0EA71BEB696300EAE5A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 550A0E8B1BEB696300EAE5A8 /* 01-练习BS */;
+			targetProxy = 550A0EA61BEB696300EAE5A8 /* PBXContainerItemProxy */;
+		};
+		550A0EB21BEB696300EAE5A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 550A0E8B1BEB696300EAE5A8 /* 01-练习BS */;
+			targetProxy = 550A0EB11BEB696300EAE5A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		550A0EB71BEB696300EAE5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		550A0EB81BEB696300EAE5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		550A0EBA1BEB696300EAE5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 341EBFE39922A0636A182B9D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "01-练习BS/Classes/Other-其他/PrefixHeader.pch";
+				INFOPLIST_FILE = "01-练习BS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fwq.com.-1---BS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		550A0EBB1BEB696300EAE5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ABDEDDDEF729B37F35AA076 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "01-练习BS/Classes/Other-其他/PrefixHeader.pch";
+				INFOPLIST_FILE = "01-练习BS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fwq.com.-1---BS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		550A0EBD1BEB696300EAE5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "01-练习BSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fwq.com.-1---BSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-练习BS.app/01-练习BS";
+			};
+			name = Debug;
+		};
+		550A0EBE1BEB696300EAE5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "01-练习BSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fwq.com.-1---BSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-练习BS.app/01-练习BS";
+			};
+			name = Release;
+		};
+		550A0EC01BEB696300EAE5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01-练习BSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fwq.com.-1---BSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "01-练习BS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		550A0EC11BEB696300EAE5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01-练习BSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fwq.com.-1---BSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "01-练习BS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		550A0E871BEB696300EAE5A8 /* Build configuration list for PBXProject "01-练习BS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550A0EB71BEB696300EAE5A8 /* Debug */,
+				550A0EB81BEB696300EAE5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550A0EB91BEB696300EAE5A8 /* Build configuration list for PBXNativeTarget "01-练习BS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550A0EBA1BEB696300EAE5A8 /* Debug */,
+				550A0EBB1BEB696300EAE5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550A0EBC1BEB696300EAE5A8 /* Build configuration list for PBXNativeTarget "01-练习BSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550A0EBD1BEB696300EAE5A8 /* Debug */,
+				550A0EBE1BEB696300EAE5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550A0EBF1BEB696300EAE5A8 /* Build configuration list for PBXNativeTarget "01-练习BSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550A0EC01BEB696300EAE5A8 /* Debug */,
+				550A0EC11BEB696300EAE5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 550A0E841BEB696300EAE5A8 /* Project object */;
+}

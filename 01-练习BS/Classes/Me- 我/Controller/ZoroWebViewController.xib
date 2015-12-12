@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZoroWebViewController">
+            <connections>
+                <outlet property="backItem" destination="B4D-HH-Yzq" id="pmp-AA-ozN"/>
+                <outlet property="forwardItem" destination="DdG-M0-rbH" id="ElJ-of-Uk0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="fYI-em-vfS"/>
+                <outlet property="webView" destination="sKG-zY-jhd" id="HpL-1t-wv3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sKG-zY-jhd">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="X7L-SG-lDV"/>
+                    </connections>
+                </webView>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4YP-p6-jVs">
+                    <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                    <animations/>
+                    <items>
+                        <barButtonItem enabled="NO" image="back" id="B4D-HH-Yzq" userLabel="Back Item">
+                            <connections>
+                                <action selector="back" destination="-1" id="DKt-88-kOg"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem enabled="NO" image="forward" id="DdG-M0-rbH" userLabel="Forward Item">
+                            <connections>
+                                <action selector="forward" destination="-1" id="gVy-n3-BRj"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="WoL-MR-wSW"/>
+                        <barButtonItem systemItem="refresh" id="UJq-np-GLr" userLabel="Refresh">
+                            <connections>
+                                <action selector="reload" destination="-1" id="ySy-gu-q4I"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="4YP-p6-jVs" secondAttribute="bottom" id="DPQ-GB-U7x"/>
+                <constraint firstAttribute="trailing" secondItem="sKG-zY-jhd" secondAttribute="trailing" id="JUy-tl-nIJ"/>
+                <constraint firstItem="4YP-p6-jVs" firstAttribute="top" secondItem="sKG-zY-jhd" secondAttribute="bottom" id="LHz-6W-PDa"/>
+                <constraint firstAttribute="trailing" secondItem="4YP-p6-jVs" secondAttribute="trailing" id="Nv1-M2-YtX"/>
+                <constraint firstItem="sKG-zY-jhd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cyz-Hv-rYj"/>
+                <constraint firstItem="sKG-zY-jhd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="eW7-Bs-NyX"/>
+                <constraint firstItem="4YP-p6-jVs" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iir-QY-a60"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="27" height="20"/>
+        <image name="forward" width="27" height="20"/>
+    </resources>
+</document>
